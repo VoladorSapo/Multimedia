@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<script src="javascript/Navegador.js"></script>
+<link href="styles/estilo_Comentarios.css" rel="stylesheet" type="text/css" />
+<!-- -------------------------------------------- -->
+            <div id="navegador">
+                <ul id="cuadros">
+                    <li id="rayitalado"><a id="links" href="PaginaPrincipal.html"><img src="media/images/LogoDraculaBanner.png" width=100% height=auto></a></li>
+
+                    <li id="rayitalado"><a id="links" href="PaginaPrincipal.html">Inicio</a></li>
+
+                    <li id="rayitalado"><a id="links" href="PreguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+
+                    <li id="rayitalado"><a id="links" href="Comentarios.html">Comentarios</a></li>
+
+                    <!--<li id="rayitalado"><a id="links" href="Campaña.html">Campaña</a></li>-->
+
+                    <li id="inputbusqueda"><input class="searchinput" type="text" placeholder="Buscar en la página" title="Busca palabras específicas en la página"></input></li>
+                    <li><a id="botonBusqueda" onclick="buscar();"><img src="media/images/lupa.png" width="50px" height="auto"></a></li>
+                </ul>
+                 <script>
+                    var navegador = document.getElementById("navegador");
+                     window.addEventListener("scroll", function() {
+                    if (window.pageYOffset > 0) {
+                     navegador.style.top = window.pageYOffset + "px";
+                    } else {
+                    navegador.style.top = "0";
+                    }
+                    });
+                </script>
+            </div>
+
+<!-- -------------------------------------------- -->
+            
+
+<!-- -------------------------------------------- -->
+
+
+<!-- -------------------------------------------- -->
+
+<title>Dracula: Comentarios</title>
+
+<h1>Dracula: COMENTARIOS</h1>
+</head>
+
+<body style="background-color:#FFDF9B;">
+<main>
+
+	 <input type="text" id="inputnombre" placeholder="Nombre">
+                        <input type="text" id="inputcomentario" placeholder="Escribe un comentario...">
+<button type="submit" id="submitbutton">Submit</button>
+<h1><div>
+ Borja Fierro
+ </div>
+<comment>
+El juego indie español más prometedor quitando a https://miguelrico2031.itch.io/soulamander</comment></h1>
+<h1>
+<div>
+ Duvis
+ </div>
+<comment>
+Mi mujer me dejó y perdí el sentido en la vida. Este juego me lo ha devuelto</comment></h1>
+
+
+
+<div id="cajacomentario"> </div>
+		 <script src="javascript/comentarios.js"></script>
+</main>
+</body>
+</html>
