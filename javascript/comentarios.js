@@ -2,12 +2,15 @@ var submitBtn = document.getElementById('submitbutton')
 var cajacomentarios = document.getElementById('cajacomentario')
 var inputnombre = document.getElementById('inputnombre')
 var inputcomentario = document.getElementById('inputcomentario')
-console.log(inputcomentario);
 submitBtn.addEventListener('click', ponerComentario)
+if(localStorage.getItem("comentarios") != null){
+	cajacomentarios.innerHTML = localStorage.getItem("comentarios");
+	}else{
+		console.log("null");
+	}
 function ponerComentario(){
 	    const letter = (inputnombre.value).charAt(0)
 
-	console.log("dsd")
 	if(inputnombre.value != '' && inputcomentario.value != ''){
 	var h1 = document.createElement('h1');
 h1.innerHTML = `
@@ -18,6 +21,9 @@ h1.innerHTML = `
 </comment>
 
 `
-	cajacomentarios.after(h1,cajacomentarios)
+	cajacomentarios.appendChild(h1,cajacomentarios)
+	console.log(cajacomentarios.innerHTML)
+	localStorage.setItem("comentarios", cajacomentarios.innerHTML);
+	console.log(localStorage.getItem("comentarios"));
 }
 }
