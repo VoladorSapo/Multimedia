@@ -6,9 +6,9 @@ h2{
     text-decoration: none;
     color:black;
 }
-#separador {
-    width: 15%;
-    padding: 5% 40%;
+#espacio {
+    padding: 50px;
+    display: block;
 }
 /*--------------------------------------------*/
 #navegador{
@@ -184,12 +184,24 @@ td{
     width: 60%;
     margin: auto;
 }
+audio {
+    display: block;
+    position: relative;
+}
+/*--------------------------------------------*/
+#equipo{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
 
 /*--------------------------------------------*/
 #demo{
     font-family: monospace;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     width: 60%;
     margin: auto;
 }
@@ -203,4 +215,5 @@ td{
     font-size: 20px;
     background-color: black;
     color:white;
+    padding: 5% 5%;
 }
