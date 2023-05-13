@@ -52,6 +52,8 @@ li {
 }
 
 comment {
+    overflow-wrap: break-word;
+
     font-size: 20px;
  width: 70%;
  min-height: 80px;
@@ -118,16 +120,22 @@ li input {
 .searchinput::-ms-input-placeholder { 
     color: white;
   }
+  #cajacomentario{
+                            min-width: 600px;
+
+  }
 #ponercomentarios {
     border: 2px solid black;
     border-radius: 5px;
             font-size: 2vh;
-            min-width: 10%;
+                        min-width: 405px;
+
 max-width: 30%;
   margin: .5rem;
     background-color: #D0B28E ;/* <-- */
     padding: .5rem;
 }
+
 #submitbutton
 {
 
