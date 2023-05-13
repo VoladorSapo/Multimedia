@@ -94,3 +94,28 @@ ul {
 li {
     float: left;
 }
+
+/*--------------------------------------------*/
+
+li input {
+    padding: 20px 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    text-decoration: none;
+    background-color:#535353;
+    color: #ffffff;
+}
+
+.searchinput::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
+  
+.searchinput:-ms-input-placeholder { 
+    color: white;
+  }
+  
+.searchinput::-ms-input-placeholder { 
+    color: white;
+  }

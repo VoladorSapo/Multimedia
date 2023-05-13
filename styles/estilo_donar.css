@@ -98,6 +98,7 @@ li input {
     width: 100%;
     text-decoration: none;
     background-color:#535353;
+    color:white;
 }
 
 .searchinput::placeholder { 
