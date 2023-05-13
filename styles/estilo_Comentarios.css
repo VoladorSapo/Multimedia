@@ -38,7 +38,6 @@ li {
   text-align: center;
 }
 
-
 #cuadros li:first-child {
   background-position: center;
   background-repeat: no-repeat;
@@ -53,6 +52,8 @@ li {
 }
 
 comment {
+    overflow-wrap: break-word;
+
     font-size: 20px;
  width: 70%;
  min-height: 80px;
@@ -60,6 +61,11 @@ comment {
     grid-template-columns: 100% auto;
     border: 1px solid ;
     border-radius: 5px;
+
+    }
+    nombrescomentarios{
+                   
+
     }
 name {
  width: 70%;
@@ -68,6 +74,7 @@ name {
     grid-template-columns: 10% auto;
     border: 1px solid ;
     border-radius: 5px;
+
     }
     .circulo{
         top: -500px;
@@ -113,10 +120,33 @@ li input {
 .searchinput::-ms-input-placeholder { 
     color: white;
   }
+  #cajacomentario{
+                            min-width: 600px;
 
+  }
+#ponercomentarios {
+    border: 2px solid black;
+    border-radius: 5px;
+            font-size: 2vh;
+                        min-width: 405px;
+
+max-width: 30%;
+  margin: .5rem;
+    background-color: #D0B28E ;/* <-- */
+    padding: .5rem;
+}
+
+#submitbutton
+{
+
+     cursor: pointer;
+
+}
 #botonBusqueda
 {
     margin-left:50px;
+         cursor: pointer;
+
 }
 
 li a:hover {
