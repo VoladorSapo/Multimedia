@@ -84,7 +84,7 @@ h2{
     right: 0px;
     top: 30px;/*120 abajo*/
     z-index: 6;
-
+cursor: pointer;
 }
 
 #navegadorC{

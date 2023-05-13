@@ -13,9 +13,9 @@ function ponerComentario(){
 
 	if(inputnombre.value != '' && inputcomentario.value != ''){
 	var h1 = document.createElement('h1');
-h1.innerHTML = `
+h1.innerHTML = `<nombrescomentarios>
  ${inputnombre.value}
- </div>
+ </nombrescomentarios>
 <comment>
  ${inputcomentario.value}
 </comment>
