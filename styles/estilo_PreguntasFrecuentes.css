@@ -73,7 +73,8 @@ summary{
 #preguntas{
     font-family: monospace;
     font-weight:bold;
-    font-size: 1vw;
+    font-size: 3vh;
+    align-content: center;
     text-align: center;
     padding: 1vw 16vw;
 
