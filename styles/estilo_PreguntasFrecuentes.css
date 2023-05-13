@@ -58,12 +58,15 @@
 }
 details{
         border: 1px solid black;
+            font-size: 2vh;
+
   margin: .5rem;
     background-color: #F3DFC2;/* <-- */
     padding: .5rem;
 }
 summary{
     
+    font-size: 2vh;
 
         border: 2px solid black;
 
@@ -74,7 +77,6 @@ summary{
 #preguntas{
     font-family: monospace;
     font-weight:bold;
-    font-size: 2vh;
     align-content: center;
     text-align: center;
     padding: 1vw 16vw;
