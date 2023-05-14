@@ -1,6 +1,6 @@
 /*--------------------------------------------*/
 #navegador{
-    position: sticky;
+ position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -10,6 +10,7 @@
     front-size: 16px;
     front-weight: bold;
     padding: 10px 0;
+    z-index: 6;
 }
 
 #cuadros {

@@ -133,8 +133,27 @@ td{
     padding: 5px 5px;
     background-color: #F3DFC2;/* <-- */
 }
+body {
 
+}
+#botondonar{
+     appearance:none;
+    -webkit-appearance:none;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+.botondonar:hover {
+  background-color: #4CAF50;
+      padding: 5px 5px;
 
+  color: white;
+}
+#donarlinks {
+     appearance:none;
+}
 /*--------------------------------------------*/
 #metas{
     font-family: monospace;
