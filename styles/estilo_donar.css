@@ -22,15 +22,20 @@ li {
     padding: 10px 0;
     z-index: 9998;
 }
+h1{
+    font-family: Georgia;
 
+}
+h3{
+        font-family: Georgia;
+
+}
 #cuadros {
     list-style-type: none;
     margin: 0 ;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    font-family: Georgia;
-
 }
 
 #cuadros li {
@@ -63,8 +68,7 @@ comment {
     border: 1px solid ;
     border-radius: 5px;
     }
-
-article {
+name {
  width: 70%;
     height: 80px;
     display: grid;
@@ -125,9 +129,3 @@ li input {
 li a:hover {
     background-color: #111;
 }
-/*--------------------------------------------*/
-
-h1 {
-    font-family: Georgia;
-}
-/*--------------------------------------------*/

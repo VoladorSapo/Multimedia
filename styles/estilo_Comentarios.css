@@ -10,6 +10,8 @@ li {
     float: left;
 }
 #navegador{
+        font-family: Georgia;
+
     position: relative;
     top: 10;
     left: 0;
@@ -33,6 +35,8 @@ li {
 }
 
 #cuadros li {
+        font-family: Georgia;
+
   min-width: 120px;
   height: 80px;
   line-height: 60px;
@@ -40,6 +44,8 @@ li {
 }
 
 #cuadros li:first-child {
+        font-family: Georgia;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -48,6 +54,8 @@ li {
   margin: 0 auto;
 }
 #rayitalado{
+        font-family: Georgia;
+
     float: left;
     border-right: 1px solid #bbb;
 }
@@ -62,10 +70,12 @@ comment {
     grid-template-columns: 100% auto;
     border: 1px solid ;
     border-radius: 5px;
+    font-family: Georgia;
 
     }
     nombrescomentarios{
                    
+    font-family: Georgia;
 
     }
 name {
@@ -75,6 +85,7 @@ name {
     grid-template-columns: 10% auto;
     border: 1px solid ;
     border-radius: 5px;
+    font-family: Georgia;
 
     }
     .circulo{
@@ -83,6 +94,8 @@ name {
 height: 50px;
     background-color: #48cae4;
     border-radius: 50%;
+        font-family: Georgia;
+
     }
 
 .letra{
@@ -90,6 +103,8 @@ height: 50px;
 width: inherit;
 height: auto;
 text-align: center;
+    font-family: Georgia;
+
 }
 li a {
     display: block;
@@ -122,10 +137,14 @@ li input {
     color: white;
   }
   #cajacomentario{
+        font-family: Georgia;
+
                             min-width: 600px;
 
   }
 #ponercomentarios {
+        font-family: Georgia;
+
     border: 2px solid black;
     border-radius: 5px;
             font-size: 2vh;
@@ -139,17 +158,26 @@ max-width: 40%;
 
 #submitbutton
 {
+    font-family: Georgia;
 
      cursor: pointer;
 
 }
 #botonBusqueda
 {
+        font-family: Georgia;
+
     margin-left:50px;
          cursor: pointer;
 
 }
+#inputnombre{
+        font-family: Georgia;
 
+}
+#inputcomentario{
+    font-family: Georgia;
+}
 li a:hover {
     background-color: #111;
 }

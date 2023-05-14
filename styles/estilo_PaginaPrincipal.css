@@ -24,7 +24,6 @@ h2{
     padding: 10px 0;
     z-index: 6;
 }
-
 #cuadros {
     list-style-type: none;
     margin: 0 ;
@@ -137,12 +136,10 @@ th{ /*COLORES A CAMBIAR POR UNOS Q PEGUEN MÁS*/
     background-color: #BB9178;/* <-- */
 }
 td{
+
     border: 1px solid black;
     padding: 5px 5px;
     background-color: #F3DFC2;/* <-- */
-}
-body {
-
 }
 #botondonar{
      appearance:none;
