@@ -27,3 +27,18 @@ h1.innerHTML = `<nombrescomentarios>
 	console.log(localStorage.getItem("comentarios"));
 }
 }
+
+/*ESTILO*/
+submitbutton.style.fontFamily = "Georgia";
+
+cajacomentarios.style.fontFamily = "Georgia";
+cajacomentarios.style.fontSize = "60%";
+
+/*
+nombreCoso.style.fontFamily = "Georgia";
+nombreCoso.style.fontSize = "40%";
+*/
+
+inputnombre.style.fontFamily = "Georgia";
+
+inputcomentario.style.fontFamily = "Georgia";

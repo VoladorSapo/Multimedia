@@ -29,6 +29,8 @@ li {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: Georgia;
+
 }
 
 #cuadros li {
@@ -61,6 +63,7 @@ comment {
     border: 1px solid ;
     border-radius: 5px;
     }
+
 article {
  width: 70%;
     height: 80px;
@@ -122,3 +125,9 @@ li input {
 li a:hover {
     background-color: #111;
 }
+/*--------------------------------------------*/
+
+h1 {
+    font-family: Georgia;
+}
+/*--------------------------------------------*/

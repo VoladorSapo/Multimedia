@@ -19,6 +19,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: "Georgia";
 }
 
 #cuadros li {
@@ -76,7 +77,7 @@ summary{
     padding: .5rem;
 }
 #preguntas{
-    font-family: monospace;
+    font-family: "Georgia";
     font-weight:bold;
     align-content: center;
     text-align: center;
