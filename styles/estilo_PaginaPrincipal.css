@@ -10,6 +10,11 @@ h2{
     padding: 50px;
     display: block;
 }
+h3{
+    font-family: Georgia;
+        text-align: center;  
+
+}
 /*--------------------------------------------*/
 #navegador{
     position: fixed;
@@ -129,6 +134,10 @@ cursor: pointer;
     padding: 16px 16px;
     margin: auto;
 }
+table{
+            font-family: Georgia;
+
+}
 th{ /*COLORES A CAMBIAR POR UNOS Q PEGUEN MÁS*/
     border: 1px solid black;
     padding: 5px 5px;
@@ -136,6 +145,7 @@ th{ /*COLORES A CAMBIAR POR UNOS Q PEGUEN MÁS*/
     background-color: #BB9178;/* <-- */
 }
 td{
+        font-family: Georgia;
 
     border: 1px solid black;
     padding: 5px 5px;
