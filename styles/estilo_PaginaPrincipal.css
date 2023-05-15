@@ -232,8 +232,7 @@ audio {
 #demo{
     font-family: Georgia;
     font-size: 15px;
-    text-align: center;
-    width: 60%;
+    text-align: center;   
     margin: auto;
 }
 
