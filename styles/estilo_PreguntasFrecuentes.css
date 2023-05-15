@@ -105,10 +105,12 @@ li input {
     padding: 20px 25px;
     margin-top: 10px;
     margin-left: 10px;
-    width: 100%;
+    width: 226px;
+    height: 16px;
+    padding: 25px 20px;
     text-decoration: none;
     background-color:#535353;
-    color: #ffffff;
+    color:white;
 }
 
 .searchinput::placeholder { 
@@ -123,3 +125,11 @@ li input {
 .searchinput::-ms-input-placeholder { 
     color: white;
   }
+
+#botonBusqueda
+{
+    font-family: Georgia;
+    margin-left:50px;
+    cursor: pointer;
+
+}

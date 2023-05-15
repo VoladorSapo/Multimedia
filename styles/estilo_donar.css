@@ -102,7 +102,9 @@ li input {
     padding: 20px 25px;
     margin-top: 10px;
     margin-left: 10px;
-    width: 100%;
+    width: 226px;
+    height: 16px;
+    padding: 25px 20px;
     text-decoration: none;
     background-color:#535353;
     color:white;
@@ -121,10 +123,13 @@ li input {
     color: white;
   }
 
-#botonBusqueda
-{
-    margin-left:50px;
-}
+  #botonBusqueda
+  {
+      font-family: Georgia;
+      margin-left:50px;
+      cursor: pointer;
+  
+  }
 
 li a:hover {
     background-color: #111;

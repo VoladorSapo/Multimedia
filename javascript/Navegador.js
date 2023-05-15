@@ -34,7 +34,7 @@ function buscar()
 
 function busquedaRecursiva(elem, string)
 {
-	if (elem.innerHTML.includes(string))
+	if (elem.innerHTML.toLowerCase().includes(string.toLowerCase()))
 		return elem;
 	else if (elem.hasChildNodes())
 	{

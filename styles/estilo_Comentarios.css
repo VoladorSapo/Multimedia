@@ -165,10 +165,9 @@ max-width: 40%;
 }
 #botonBusqueda
 {
-        font-family: Georgia;
-
+    font-family: Georgia;
     margin-left:50px;
-         cursor: pointer;
+    cursor: pointer;
 
 }
 #inputnombre{
