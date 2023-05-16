@@ -29,6 +29,7 @@ function buscar()
 	  console.log("buscando " + busqueda);
 	  var elem = busquedaRecursiva(document.body, busqueda);
 	  console.log(elem);
+	  if(elem != null){
 	  if(elem.parentElement.parentElement.nodeName == "DETAILS"){
 	  	console.log("Diablo");
 	  	elem.parentElement.parentElement.open = true;
@@ -36,13 +37,14 @@ function buscar()
 	  elem.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
   }
 }
+}
 
 function busquedaRecursiva(elem, string)
 {
-	if (elem.innerHTML.toLowerCase().includes(string.toLowerCase()) && !elem.hasChildNodes && !elem.hasAttribute("closed")){
+	if (elem.innerHTML.toLowerCase().includes(string.toLowerCase()) && !elem.hasChildNodes ){
 		return elem;
 	}
-	if (elem.hasChildNodes() && !elem.hasAttribute("closed"))
+	if (elem.hasChildNodes() )
 	{
 		var res = null;
 		for (var i = 0; i<elem.children.length && res == null;i++)
@@ -50,11 +52,9 @@ function busquedaRecursiva(elem, string)
 			var child = elem.children[i];
 			res = busquedaRecursiva(child, string);
 		}
-		if(res != null && !res.hasAttribute("closed")){
+		if(res != null ){
 		return res;
-	}else if(!elem.hasAttribute("closed") && elem.innerHTML.toLowerCase().includes(string.toLowerCase())){
-		console.log();
-console.log("Lol");
+	}else if( elem.innerHTML.toLowerCase().includes(string.toLowerCase())){
 return elem;
 	}else{
 		return null;
